@@ -1,9 +1,0 @@
-# 음성 파일 텍스트 변환 (기존 코드 그대로 사용)
-# 결과는 formatted_text 변수에 저장됨
-
-# 변환된 텍스트를 파일에 저장
-with open("/content/formatted_text.txt", "w") as f:
-    f.write(formatted_text)
-
-# 결과 출력
-print("Transcription complete. Result saved to formatted_text.txt")
